@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="packages/apps/HwaSettings" name="royale1223/HwaSettings" revision="master" />
+  <project path="kernel/goldfish" name="CyanogenMod/android_kernel_goldfish" />
+
+  <!-- gcc 4.8 TODO emerge cross compiler -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" remote="aosp" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="aosp" revision="master" />
+</manifest>

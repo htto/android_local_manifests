@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- remove affected projects -->
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_hardware_ril" />
+  <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
+  <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
+  <remove-project name="CyanogenMod/android_system_core" />
+
+  <!-- re-add affected projects with new path -->
+  <project path="device_specific_moves/frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="device_specific_moves/hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <project path="device_specific_moves/hardware/ril" name="CyanogenMod/android_hardware_ril" />
+  <project path="device_specific_moves/hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
+  <project path="device_specific_moves/hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <project path="device_specific_moves/system/core" name="CyanogenMod/android_system_core" />
+</manifest>

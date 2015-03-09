@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Add stuff from Varcain -->
+  <project path="device/lge/d605" name="Varcain/android_device_lge_d605" />
+  <project path="kernel/lge/d605" name="Varcain/android_kernel_lge_d605" />
+</manifest>
