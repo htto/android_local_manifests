@@ -7,6 +7,7 @@
   <remove-project name="CyanogenMod/android_hardware_ti_omap3" />
   <remove-project name="CyanogenMod/android_hardware_ti_wlan" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_system_extras" /> <!-- system/core needs this -->
 
   <!-- re-add affected projects with new path -->
   <project path="device_specific_moves/frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
@@ -15,4 +16,5 @@
   <project path="device_specific_moves/hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="device_specific_moves/hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="device_specific_moves/system/core" name="CyanogenMod/android_system_core" />
+  <project path="device_specific_moves/system/extras" name="CyanogenMod/android_system_extras" /> <!-- system/core needs this -->
 </manifest>
