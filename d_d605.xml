@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote  name="codeaurora"
+           fetch="git://codeaurora.org/quic/la" />
+
   <!-- Add stuff from Varcain -->
   <project path="device/lge/d605" name="Varcain/android_device_lge_d605" />
   <project path="kernel/lge/d605" name="Varcain/android_kernel_lge_d605" />
+
+  <!--
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" groups="qcom" />
+  <project path="hardware/qcom/camera-caf" name="platform/hardware/qcom/camera" groups="caf" remote="codeaurora" revision="refs/tags/android-4.4.4_r2" />
+  -->
 </manifest>
